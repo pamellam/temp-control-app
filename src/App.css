@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  width: 32rem;
+  height: 48rem;
+  border-radius: 1.75rem;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.5);
+  background-color: #f6f8f5;
+}
+
+.temperature-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.temperature-display {
+  display: flex;
+  width: 16rem;
+  height: 16rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 6rem;
+}
+
+button {
+  height: 4rem;
+  width: 8rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.neutral {
+  background: #d2cdbc;
+}
+
+.cold {
+  background: #1cb3f2;
+}
+
+.hot {
+  background: #e14a38;
+}
